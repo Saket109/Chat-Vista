@@ -5,7 +5,7 @@ const User = require('./models/userModel');
 const Chat = require('./models/chatModel');
 
 const app = express();
-const port = process.env.port || 4000;
+const port = 4000;
 const userRoute = require('./routes/userRoutes.js');
 app.use('/',userRoute);
 
